@@ -1,0 +1,10 @@
+/*
+ * Keep this line of CSS, it will remove defaul margin and padding so your site looks more like the screenshot.
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+/*
+ * Start adding your css after this comment:
+ */

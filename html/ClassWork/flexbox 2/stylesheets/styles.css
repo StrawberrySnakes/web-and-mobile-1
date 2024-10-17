@@ -1,0 +1,31 @@
+header, main, footer, aside, nav {
+    border: 2px solid #777;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+}
+
+header, footer{
+    flex-basis: 100%;
+    margin: 20px 0;
+}
+
+nav {
+    flex-basis: 20%;
+    min-width: 200px;
+    /*this is important for mobile devices*/
+}
+
+main {
+    flex-basis: 40%;
+    min-width: 400px;
+}
+
+aside {
+    flex-basis: 35%;
+    min-width: 350px;
+}

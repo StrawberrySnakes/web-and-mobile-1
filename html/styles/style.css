@@ -1,0 +1,54 @@
+
+
+body{
+    background-color: rgb(216, 184, 246);
+    font-family: courier, sans-serif;
+    font-size: 1em;
+}
+header{
+    text-align: center;
+    border: 3px solid #000000;
+    padding: 10px;
+    margin: 20px;
+
+    border-radius: 50px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(158, 119, 195);
+}
+
+.groupedParagraghs{
+    text-align: center;
+    width: 80%;
+    padding: 20px;
+    margin: 10px auto;
+    /* margin: 10px */
+
+}
+
+#headshot {
+    width: 400px;
+}
+
+#fam {
+    width: 400px;
+}
+
+#specialParagragh {
+    color: #1b0321;
+}
+
+p:first-child{
+    text-align: center;
+    width: 50%;
+}
+
+/* section p = every paragragh who is a decendent
+section > p is for direct children only
+section > p, header if you have more then one type of tag
+you can also put classes*/
+section > p {
+    font-size: 30em;
+}

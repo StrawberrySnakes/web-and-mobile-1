@@ -1,0 +1,32 @@
+.box-shadow {
+    /* offset-x | offset-y | blur-raduis | spread-radius | color */
+    box-shadow: 10px 10px 50px 1px rgb(28, 54, 79, 0.4);
+}
+
+.text-shadow {
+    /* offset-x | offset-y | blur-raduis | color */
+    text-shadow: 0 0 10px rgb(255, 0, 0, 0.8);
+}
+
+.round-corners {
+    border-radius: 10%;
+}
+
+.gradient {
+    display: inline-block;
+    width:75px;
+    height: 75px;
+    margin: 0 10px;
+}
+
+.rainbow {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.repeating {
+    background: linear-gradient(to right, red, orange, yellow, orange, red 33.334%);
+}
+
+.radical {
+    background: radial-gradient(red, orange);
+}

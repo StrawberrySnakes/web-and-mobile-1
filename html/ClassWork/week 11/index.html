@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf=8">        <title>Forms</title>
+        <link href="styles.css" rel="Stylesheet">
+        <link href="special.css" rel="Stylesheet">
+    </head>
+
+    <body>
+        <!--if anyone is able to add data that data will not be reliable
+        the action ="#" will maintain the location on the page action="otherPage.html" will send it to another page
+        use inspection to validate the data made it onto the form
+        Method (typically 4 types) when using rest services if you do not define it uses default GET (uses all the properties) ex google
+        POST is 
+        *** for = "" ties to the id of the input field ***
+        name feild is whats used in the playload to the destination
+        final exam you need to know this stuff and need to set a name
+        
+    First Name(lable)
+    Somename(placeholder)S
+
+    try to implement a form on your final project
+    to stack them use a div or section element 
+        Submit-->
+
+    <form action="#" method="POST" id="second" class="box-shadow text-shadow">
+        
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="First Name" required="true">
+        
+        
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name" required="true">
+        
+        
+            <label for="emailadress">Email Adress:</label>
+            <input type="email" id="emailadress" name="emailadress" placeholder="Email">
+        
+        
+            <label for="phonenumber">Phone Number:</label>
+            <input type="text" id="phonenumber" name="phonenumber" placeholder="5555555555">
+        
+        <!--Creates a pick list use value so that it does not pick one if one is not choosen-->
+    
+        <label for="age">Age:</label>
+        <select id="age" name="age">
+            <option value="">- SELECT AN OPTION -</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+        </select>
+    
+
+    
+        <label for="agree">Click this</label>
+        <input type="checkbox" id="agree" name="agree">
+    
+
+        <input type="submit" value="SEND">
+        <!-- or use can use a <button></button> -->
+    </form>
+</body>
+
+
+</html>

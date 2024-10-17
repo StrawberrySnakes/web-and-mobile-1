@@ -1,0 +1,35 @@
+
+<!--
+    block emelemts are the elements which take up the entirty of the screen and pushed other elements below
+    padding in the internal border of the box
+    border - 
+
+    note-- whats an em ex border-radius: 1.5em
+-->
+
+in css style sheet 
+
+header{
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+<!--same as
+ must use all three for it to work size, style, color -->
+
+header{
+    text-align: center;
+    border-size: 1px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+border-radius: 5px 10px 50px 3px 
+<!--
+    goes clockwise starting top left 
+-->
+
+
+
+</html>
+

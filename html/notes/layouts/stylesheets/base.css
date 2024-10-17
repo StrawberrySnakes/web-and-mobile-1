@@ -1,0 +1,74 @@
+* { margin: 0px; padding: 0px; }
+
+body {
+    background-color: #f2faff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header, main, footer {
+    min-height: 20px;
+    padding: 15px;
+}
+main, footer {
+    margin: 10px 0px;
+}
+nav ul li {
+    list-style-type: none;
+    margin: 10px 0px;
+    padding: 5px;
+    font-size: 1.25em;
+}
+section#posts > div {
+    margin: 20px 5px;
+    padding: 20px;
+    line-height: 1.45em;
+    min-height: 100px;
+}
+section#posts > div p {
+    margin-bottom: 10px;
+}
+section > figure {
+    font-size: 0.75em;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+section > figure > img {
+    width: 100%;
+}
+footer {
+    text-align: center;
+}
+.clear {
+    clear: both;
+}
+.author {
+    font-size: 0.8em;
+    font-style: italic;
+    color: #434343;
+}
+.author > div {
+    margin: 0 0 0 75px;
+    padding-top: 10px;
+}
+.profileImage {
+    margin: 0 0 10px 0 !important;
+    padding: 0 !important;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #545454;
+    overflow: hidden;
+
+    float: left;
+
+    background-image: url('../assets/images/wedding_nick.jpeg');
+    /*
+        - These won't work anywhere but on my computer because this file path doesn't exist anywhere but here.
+          On Solace (or any other server) you'll need to use relative paths.
+
+        background-image: url('/Users/rocnick/Library/CloudStorage/OneDrive-Personal/rit/html/images/wedding_nick.jpeg');
+        background-image: url('images/wedding_nick.jpeg');
+    */
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 250%;
+}

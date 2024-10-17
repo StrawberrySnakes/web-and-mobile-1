@@ -1,0 +1,33 @@
+adaptive- use a media query(different styple to different modalities, uses conditional inside your CSS) to adapt styles/pages to different srceen sizes 
+applys to screen types with (...)
+@media scrren and (max-width: 500px) {
+
+}
+-- this mean will apply to all screen sizes 800px or less 
+when building use inspecter to help -- top left corrnor 2nt from left, when you click it shows what website would look like on mobile devise 
+USE THIS on final project 
+
+*** <meta name="viewport" content="width=divice-width, initial-scale: 1"> *** viewport makes it so the size changes and does not zoom
+
+typically use max-width (makes websites thinner and scroll down, people dont like scrolling side to sdie)
+ex
+@media scrren and (max-width: 500px) {
+    insert all css here
+
+}
+
+use landscape and portrait 
+
+can use orientation ex @media screen and (orientation:landscape) {}
+-- specific to orientation landscape 
+
+@media screen and (max-width: 800px) and (orientation:landscape) {}
+-- for 800 px and under only in landscape 
+
+USE THESE in menues on mobile devices/ text to small to read/buttons too small to touch
+
+--put defult styles at the top than any custimizations at the bottom --
+remeber css is processes from top down 
+
+
+responsive - 

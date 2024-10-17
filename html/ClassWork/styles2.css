@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .flex-item {
+    /*max-width: 300px;  Set the maximum width */
+    flex: 1; /* This allows the item to grow or shrink based on available space */
+    padding: 20px;
+    border: 1px solid #ccc;
+    /*box-sizing: border-box;*/
+  }
+
+.flex-item > p{
+    max-width: 800px;
+}

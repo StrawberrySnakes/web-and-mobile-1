@@ -1,0 +1,43 @@
+* { margin: 0px; padding: 0px; }
+
+body {
+    font-family: sans-serif;
+    background-color: #f2faff;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    padding: 10px;
+}
+
+header, footer, nav, main, aside {
+    border: 3px solid #ff0000;
+    padding: 10px 25px;
+    margin: 10px;
+}
+footer {
+    text-align: center;
+}
+
+p {
+    margin: 20px 5px;
+    line-height: 1.5em;
+}
+
+/* grids */
+body {
+    display: grid;
+    /* 3 column approach */
+    grid-template-columns: 300px auto 300px;
+
+    /* row | column */
+    gap: 10px 20px;
+
+    justify-content: space-around;
+}
+
+/* Stretch the header and footer from left to right across the screen */
+header, footer {
+    grid-column: 1 / 4;
+}

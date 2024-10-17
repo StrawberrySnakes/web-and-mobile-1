@@ -1,0 +1,42 @@
+#song {
+   height: 280px;
+   width: 600px;
+   border: 2px solid blue;
+   padding: 5px;
+   background-color: #F0F0F0;
+}
+
+h2 {
+    font-size: 16pt;
+    font-style: italic;
+    color: blue;
+    font-family: Arial;
+}
+
+#first {
+    background-color: yellow;
+    float: left;
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#fourth{
+    background-color: rgb(255, 80, 0);
+    color: white;
+    float: right;
+    width: 200px;
+    padding: 10px;
+    margin-right: 40px;
+    margin-top: 20px;
+    
+}
+
+#third {
+    background-color: orange;
+    position: absolute;
+    top: 200px;
+    left: 110px;
+    width: 200px;
+    padding: 10px
+}

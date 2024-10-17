@@ -1,0 +1,23 @@
+/* Flex */
+main {
+    display: flex;
+    /* now a flex container*/
+    gap: 20px;
+    flex-wrap: wrap-reverse;
+    /* Default is no-wrap
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    */
+}
+
+/* Layout Styles */
+main > * {
+    border: 1px solid #777;
+    padding: 10px;
+    flex-basis: 900px;
+    /* What size do we want it to start from? Think similar to max-width */
+    /*
+    flex-basis: 900px;
+    - gives you the defult width of flex items  
+    */
+}

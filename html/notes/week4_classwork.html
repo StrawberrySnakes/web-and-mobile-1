@@ -1,0 +1,229 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+
+    block emelemts are the elements which take up the entirty of the screen and pushed other elements below
+    padding in the internal border of the box
+    border - 
+
+    note-- whats an em ex border-radius: 1.5em
+
+
+in css style sheet 
+
+header{
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+same as
+ must use all three for it to work size, style, color 
+
+header{
+    text-align: center;
+    border-size: 1px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+border-radius: 5px 10px 50px 3px 
+
+    goes clockwise starting top left 
+
+    class = for groupings
+    id = specific elements 
+
+
+makes the underline go away 
+a{
+    text-decoration: none;
+}
+
+
+p:first-child{
+    text-align: center;
+    width: 50%;
+}
+
+# = id
+. = class
+
+/* section p = every paragragh who is a decendent
+section > p is for direct children only
+section > p, header if you have more then one type of tag
+you can also put classes*/
+section > p, header {
+    font-size: 30em;
+}
+
+
+for homepage
+
+
+body{
+    background-color: rgb(216, 184, 246);
+    font-family: courier, sans-serif;
+    font-size: 1em;
+}
+header{
+    text-align: center;
+    border: 3px solid #000000;
+    padding: 10px;
+    margin: 20px;
+
+    border-radius: 50px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(158, 119, 195);
+}
+
+.groupedParagraghs{
+    text-align: center;
+    width: 80%;
+    padding: 20px;
+    margin: 10px auto;
+    /* margin: 10px */
+
+}
+
+#headshot {
+    width: 400px;
+}
+
+#fam {
+    width: 400px;
+}
+
+#specialParagragh {
+    color: #1b0321;
+}
+
+p:first-child{
+    text-align: center;
+    width: 50%;
+}
+
+/* section p = every paragragh who is a decendent
+section > p is for direct children only
+section > p, header if you have more then one type of tag
+you can also put classes*/
+section > p {
+    font-size: 30em;
+}
+
+pretty styles in class code 
+
+body {
+    background-color: #C9D0FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > * {
+    border: 2px solid #000;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 30px;
+    margin: 0 20px;
+}
+
+#headshot {
+    width: 300px;
+}
+
+#fam {
+    width: 300px;
+}
+
+nav li:first-child(n+1) {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+--- make sure to make some space-- will count towards grade 
+
+adding stuff 
+
+body {
+    background-color: #C9D0FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > * {
+    border: 2px solid #000;
+    margin: 20px;
+    padding: 25px;
+}
+
+header, footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header {
+    margin-top: 20px;
+    border-bottom-width: 0;
+}
+footer {
+    margin-bottom: 20px;
+    border-top-width: 0;
+}
+main {
+    border-top-width: 20px;
+    border-bottom-width: 0;
+}
+nav ul{
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 30px;
+    margin: 0 20px;
+}
+
+#headshot {
+    width: 300px;
+}
+
+#fam {
+    width: 300px;
+}
+
+nav li:first-child() {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+floats -- 
+defult is none 
+floats will remove any float element from the natural flow of the page - top down 
+you need to clear after a float for it to
+
+!!!!!! DO NOT USE FLOATS FOR PAGE LAYOUTS in this course
+can use floats to maipulate the location of an element 
+
+
+#Family {
+    clear: both;
+}
+
+use clear both so this is not in the float line above it 
+
+*****in the project use float to have text wrap around images nicly 
+
+for resurch project 
+<figure id="Fam">
+    img src="images/IMG_6191.JPG" alt="The fam">
+    <figcaption>Me with the family</figcaption>
+</figure>
+use this to put copyrite
+-->
+

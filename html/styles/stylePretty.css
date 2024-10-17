@@ -1,0 +1,175 @@
+.top-menu {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav {
+    overflow: hidden;
+    background-color: #9297b5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+.nav a {
+    float: left;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+.btn:hover, #home:hover {
+    font-weight:bolder;
+}
+/*
+#home {
+    border: 1px solid #000;
+}
+*/
+
+.menu {
+    float: left;
+    overflow: hidden;
+}
+.links a:hover {
+    background-color: #000001;
+    color: #9297b5;
+    
+  }
+
+.links a:visited{
+    color: #9297b5;
+}
+
+.link a:active{
+    color: #000;
+}
+
+.menu:hover .links {
+    display: block;
+}
+
+.menu .btn, nav:first-child {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0 15px;
+}
+.links {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(9, 9, 9, 0.2);
+    z-index: 1;
+}
+.nav a:hover, .menu:hover .btn {
+    background-color: #f9f9f9;
+}
+  
+.links a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+body {
+    background-color: #C9D0FF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body > * {
+    border: 2px solid #000;
+    margin: 20px;
+    padding: 25px;
+}
+
+header, footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header {
+    margin-top: 20px;
+    text-align: center;
+}
+footer {
+    margin-bottom: 20px;
+    background-color: #9297b5;
+}
+
+#pages li {
+    color: #979ECC;
+}
+#pages h3 {
+    display: inline-block;
+}
+
+li a:hover {
+    color: #FFFFFF;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 30px;
+    margin: 0 20px;
+}
+
+a {
+    color: #44485f;
+}
+
+
+#contact {
+    color: #979ECC;
+}
+
+#headshot {
+    width: 20%;
+    float: right;
+    margin-left: 50px;
+}
+
+#Family {
+    clear: both;
+}
+#Fam {
+    width: 25%;
+}
+#Fam img {
+    width: 100%;
+}
+#Fam figcaption {
+    font-size: 0.75em;
+    text-align: center;
+}
+
+#Jazz {
+    background-image: url('../images/IMG_4174.jpg');
+    background-size: 150%;
+    background-position-x: -50px;
+    background-position-y: -160px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+nav li:first-child {
+    padding-left: 0;
+    margin-left: 0;
+}

@@ -1,0 +1,43 @@
+<!-- 
+usually put the script at the bottom so it does not take the page to long to load
+must have type 
+-->
+<script type="text.javascript">
+    alert("Hello, World!");
+</script>
+
+<!--
+3 types of style = link external style sheet, internal style sheet, inline -- think of it as layers with inline the outermost 
+ignore anything that comes after x(in terms of style): !important 
+
+inline ex:
+style stays in the head 
+this implys it to the entire body 
+colors: rbg(255, 0, 0, 0.5)
+the last number means transparency from 0(none) to 1(all)
+-->
+hexidecimal: #FF0000
+    <style>
+        body {
+            background-color: red;
+        }
+
+        header {
+            background-color: green;
+            font-family: Arial,Helvetica, sans-serif;
+            font-size: 1em;
+        }
+    </style>
+    <!--
+        serif fonts are fonts with hard ends-- used in print media, textbooks, help your eyes read from one end of the line to the other
+        ** please use serif fonts on your final projects 
+
+        sans-serif fonts are softer and git rid of those -- typically better on the web/ on a digital media 
+
+        when size is set to 1em is 16px high 
+        when body font size is set to 20px 1em will change to 20px
+        1 rem is based on the page and will always be 16px 
+        rem is a static variable 
+        em = * parent
+    -->
+    <link href="styles/styles.css" rel="stylesheet">

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf=8">
+        <meta name="viewport" content="width=divice-width, initial-scale: 1">
+        <title>JavaScript Fun</title>
+        <!--Put it in the head so it processes it first it can pull the items first
+        DOM - document object model-->
+        <script>
+            const age = 40;
+            //let makes the data type what it analyzes
+            let name = 'dessa';
+            let x = 9;
+
+            // name = 10;
+        </script>
+    </head>
+    <body>
+        <header id="dessaheader">
+
+        </header>
+        <!-- this attibute expects a javascript function -->
+        <button onclick="d();">Push Me!</button>
+
+
+        <script>
+            //if this was in the head the header would not exist yet an return undefined
+            let headerText = "Welcome to Dessa's Site";
+
+            let header = document.getElementById("dessaheader");
+            
+            //this gets the header with id
+            console.log(header);
+            //this gets whatever is in the header
+            console.dir(header);
+
+            //sets that value to headerText
+            //
+            header.innerHTML = headerText;
+            //defining a function
+            // inside {} is whats called 
+            const d = function() {
+                let emements = document.getElementsByTagName("body");
+                let bodyElement = elements[0];
+                if (bodyElement.style.backgroundColor ==="lightblue") {
+                    bodyElement.style.backgroundColor = "lightgreen";
+                    return;
+                } 
+                
+                // else {
+                //     elements[0].style.backgroundColor = "lightgreen";
+                // }
+
+                elements[0].style.backgroundColor = "lightblue";
+
+            }
+            // you can also do:
+            // function d() {
+            //     alert("AHHHHHHHHHHHHHH again")
+            // }
+
+            // let nums = [0, 8, 4, 2]
+            // four = nums[2]
+            // use index to pull values out of an array
+
+        </script>
+    </body>
+
+</html>

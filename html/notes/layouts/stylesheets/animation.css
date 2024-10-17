@@ -1,0 +1,50 @@
+.spin:hover {
+    /* animation points to which keyframe you have defined. This triggers the actual animation */
+    animation: spin;
+    animation-duration: 2s;
+
+    /* Makes the mouse look like a pointer finger when hovering */
+    cursor: pointer;
+}
+
+@keyframes spin {
+    /* The transforms can be used independently of animations */
+    0% { transform: rotate(0deg); }
+    /*
+    We can control the speed of the rotation at various points of the duration
+    by using multiple defined percentage definitions as seen below
+    10% { transform: rotate(10deg); }
+    25% { transform: rotate(180deg); }
+    50% { transform: rotate(300deg); }
+    */
+    100% { transform: rotate(360deg); }
+}
+
+.colorChange:hover {
+    animation: colorChange;
+    animation-duration: 1s;
+    /* If you want to delay the start of the animation you can.
+       This may be useful in the case that the user may be quickly moving over
+       the element and an animation would be undesirable */
+    /* animation-delay: 0.25s; */
+
+    cursor: pointer;
+}
+
+@keyframes colorChange {
+    from { background: repeating-linear-gradient(to right, red, orange, yellow, orange, red 33.334%); }
+    to { background: repeating-linear-gradient(to right, orange, yellow, red, yellow, orange 33.334%); }
+}
+
+.getBigger {
+    width: 75px;
+    height: 75px;
+    transition: width 0.5s, height 3s, opacity 5s;
+}
+.getBigger:hover {
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+
+    cursor: pointer;
+}
