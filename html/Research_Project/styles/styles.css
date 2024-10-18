@@ -1,0 +1,777 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+}
+
+.icon {
+  display: none;
+}
+
+main { 
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+ font-size: 10pt;
+}
+
+.topnav {
+    color: #e7ffed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #041C09;
+    height: 15vh;
+    margin: 0;
+    padding: 0;
+    /* padding: 0 20px; */
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); */
+  }
+  
+/* Brain icon */
+.brain_icon {
+    width: 60px;
+    height: 60px;
+    margin-right: 10em;
+    border: none;
+}
+  
+.brain_icon img {
+    width: 100%;
+    height: 100%;
+}
+  
+  /* Links */
+.links {
+    color: #e7ffed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1; /* Allow links to fill available space */
+}
+  
+.links a {
+    color: #e7ffed;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 15px 30px; /* Increase horizontal padding */
+    /* text-transform: uppercase; */
+    text-align: center;
+    border-right: 1px solid #e7ffed; /* Create a shared border */
+    flex-grow: 1; /* Distribute remaining space evenly */
+}
+  
+  /* Hover effect */
+.links a:hover {
+    background-color: #e7ffed;
+    height: inherit;
+    color: #041C09;
+    /* width: 100%; Maintain consistent hover width */
+}
+  
+  /* Active link */
+.links a.active {
+    background-color: #e4ffe9;
+    width: 100%; /* Maintain consistent active link width */
+}
+
+.techG {
+  width: 100%;
+  opacity: 0.2;
+}
+
+
+.mainimgtag {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.mainimg {
+  width: 100%;
+  margin: 0;
+}
+
+.mainname{
+  position: absolute;
+  left: 3vw;
+  top: 32vh;
+  font-size: 28pt;
+  padding-left:1.5%;
+  border-left: solid #FFFFFF 5px;
+  color: #FFFFFF;
+  letter-spacing: 1pt;
+
+}
+
+
+
+
+
+#homepagecontent h1 {
+  position: absolute;
+  left: 25vw;
+  top: 45vh;
+  max-width: 50%;
+  font-size: 2em;
+  text-align: center;
+  
+}
+
+#homepagecontent p {
+  margin: 0 5%;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 3%;
+  border-top: #041C09 solid 5px;
+  
+}
+
+#homepagecontent:nth-child(n+3) {
+  margin: 3%;
+}
+
+#historyimg2 {
+  flex-basis: 100%;
+  float: none;
+
+}
+
+#historypagecontent > section > h2{
+  text-align: center;
+  margin: 0 5%;
+  font-size: 24pt;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+}
+
+#historypagecontent p, #historypagecontent li{
+  font-size: 14pt;
+}
+
+#historypagecontent > section > p{
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  font-size: 14pt;
+  border-bottom: solid #041C09 4px;
+  margin: 0 2%;
+
+
+}
+
+
+
+
+.historyimg2{
+  float: right;
+  width: 45vw;
+}
+
+#img2 {
+  width:100%;
+}
+
+#historyarticle {
+  display: grid;
+  margin: 3%;
+  grid-template-columns: auto auto;
+  padding-bottom: 3%;
+  border-bottom: solid #041C09 4px;
+}
+
+#historyarticle > figure, #historyarticle > h2, #historyarticle > p{
+  grid-column: 1/3;
+  text-align: center;
+}
+
+#timeline {
+  margin: 3%;
+}
+
+#timeline > section {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#timeline > h1 {
+  text-align: center;
+  font-size: 24pt;
+}
+
+
+
+footer {
+    text-align: right;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+#usesimg {
+  lighting-color: black;
+}
+
+#usescontent {
+  font-size: 1.2em;
+}
+
+#usescontent > div {
+  display: flex;
+  margin: 3%;
+  flex-wrap: wrap;
+  font-size: 1.2em;
+}
+
+#usesdiv1 > :first-child{
+  flex-basis: 40%;
+  margin: 0 3%;
+  font-size: 16pt;
+  text-align: center;
+  padding-top: 6%;
+}
+
+#usesdiv1 > iframe {
+  flex-basis: 45%;
+  text-align: center;
+}
+
+#usesdiv2 {
+  justify-content: space-around;
+}
+
+#usesdiv2 > figure{
+  flex-basis: 40%;
+}
+
+#usesdiv2 > section {
+  flex-basis: 50%;
+  font-size: 0.8em;
+}
+
+#usesdiv2 h2 {
+  text-align: center;
+}
+
+#usescontent article {
+  margin: 3%;
+}
+
+#usescontent section > h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+#uses4 {
+  width:40vw;
+  float: left;
+  margin-right: 3%;
+  margin-bottom: 1%;
+}
+
+#uses5 {
+  float: right;
+  width: 60vw;
+}
+
+#uses5 > img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+#currentcontent {
+  font-size: 1.25em;
+}
+
+#vrContent {
+  text-align: center;
+  margin: 3%;
+}
+
+#vrContent li {
+  text-align: left;
+}
+
+#vrimg3 {
+  float: right;
+  border: solid #000 2px;
+  padding: 2%;
+}
+
+#results {
+  text-align: left;
+}
+
+#vrContent:first-child{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+
+}
+
+#vrContent:first-child{
+  grid-column: 1/3;
+}
+
+.sec2 {
+  text-align: left;
+}
+
+
+#vrContent section > h2 {
+  font-size: 1em;
+}
+
+#vrContent section > h1 {
+  font-size: 1.5em;
+}
+
+#vrimg1 {
+  float: right;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+
+#vr1h1 {
+  margin-bottom: 5%;
+}
+
+
+#aiContent {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3%;
+  justify-content: space-around;
+
+}
+
+#aiimg1 {
+  flex-basis: 50%;
+  width: 40vw;
+  min-width: 500px;
+}
+
+#opportunities {
+  flex-basis: 40%;
+  text-align: center;
+}
+
+#aiContent h2 {
+  font-size: 1.25em;
+}
+
+#aiContent > h2 {
+  margin-top: 3%;
+}
+
+
+#currentform input[type="radio"] {
+  display: none;
+}
+
+#currentform label {
+  font-size: 1.5em;
+  margin: 0.5% 3% 2%;
+  color: #414141;
+  display: inline-block;
+}
+
+#currentform > label:hover, #currentform input[type="radio"]:checked + label, #currentform input[type="radio"]:focus + label {
+  border-bottom: solid #7EE493 3px;
+  color: #000;
+  font-weight: bolder;
+  font-size: 1.48em;
+  
+  
+}
+
+#currentform input {
+  padding-top: 20px;
+}
+
+#currentcontent:first-child {
+  margin-bottom: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#refcontent div{
+  font-size: 16pt;
+  margin: 3%;
+  line-break: auto;
+  max-width: 90vw;
+}
+
+#refcontent div > br {
+  line-break: normal;
+}
+
+
+#contactcontent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#mainimgcontact {
+  margin-top: 3%;
+  background-color: #CAE3CB;
+  display: inline-block;
+  padding-top: 6%;
+  padding-left: 1%;
+  margin-bottom: 3%;
+  
+}
+
+#mainimgcontact h1 {
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+#mainimgcontact h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+#contactus, #beupdated {
+  display: flex;
+  flex-basis: 40%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #D9D9D9;
+  border-radius: 1em;
+  padding: 20px; /* Add padding for better appearance */
+  margin: 0 3%;
+}
+
+
+#contactus h2, #beupdated h2 {
+  text-align: center;
+}
+
+#contactus ul {
+  list-style: none;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#form {
+  text-align: center;
+}
+
+#form label {
+  margin-right: 75%;
+}
+
+#beupdated input, #beupdated textarea {
+  width: 80%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  padding: 3%;
+  border-radius: 1.5em;
+  border: #fff;
+}
+
+#beupdated input[type="submit"] {
+  background-color: #041C09;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+  
+  /* Media queries */
+@media (max-width: 768px) {
+    .brain_icon {
+      width: 120px;
+      height: 120px;
+    }
+
+
+    .topnav {
+      color: #e7ffed;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #041C09;
+      height: 20vh;
+    }
+
+    .mainimgtag {
+      width: 100vw;
+      height: 30vh;
+      
+    }
+    
+    .mainimg {
+      width: 100vw;
+      height: 20vh;
+      
+    }
+}
+
+/* I honestly have 0 idea why this is not translating to a phone it works when I shrink it down. Ive spent litteray hours on this
+and I think it's just above my current knowledge and skill level to figure it out. Sorry */
+@media screen and (max-width: 650px) {
+
+  .topnav {
+    color: #e7ffed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #041C09;
+    height: 15vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  .links {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      position: absolute;
+      background-color: #041C09;
+      top: 60px;
+      left: 0;
+      padding: 10px 0;
+      margin: 0;
+      margin-top: 30px;
+      list-style: none;
+      z-index: 1; /* Ensure links appear above other content */
+  }
+
+  .links.active {
+      display: flex;
+  }
+
+  .links a {
+      color: #e7ffed;
+      text-decoration: none;
+      font-size: 1.3em;
+      
+      padding: 15px 0;
+      text-align: center;
+      width: 100%;
+  }
+
+  .icon {
+      display: flex;
+      align-items: center;
+      padding: 0 30px;
+      width: 50%;
+  }
+
+  main {
+      padding-bottom: 50px; 
+  }
+
+  #homepagecontent h1 {
+    top: 8em;
+    left: 3.25em;
+    max-width: 70%;
+    font-size: 1.25em;
+    text-align: center;
+    margin: 0 auto;
+    
+  }
+
+  .mainimgtag {
+    width: 100vw;
+    height: 30vh;
+  }
+  
+  .mainimg {
+    width: 100vw;
+    height: 30vh;
+    overflow: hidden;
+    
+  }
+
+
+  .historyimg2 {
+    flex-basis: 100%;
+    width: 80vw;
+    float: none;
+    clear: both;
+
+  }
+  #historyarticle ul {
+    grid-row: 1/3;
+    width: 75vw;
+  }
+
+  #timeline iframe {
+    width: 75vw !important;
+    height: 50vw;
+  }
+  
+  #timeline section {
+    grid-template-columns: auto;
+  }
+
+
+
+  #vrContent:first-child {
+    grid-template-columns: auto;
+    justify-content: space-between;
+  }
+
+  #vrimg1 {
+    float: none;
+    clear: both;
+    width: 70vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  #vrimg3img {
+    float: none;
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  #vrContent iframe {
+    width: 75vw;
+    height: 20vh;
+  }
+
+  #currentform label {
+    font-size: 1em;
+    margin: 0 3% 2%;
+  }
+
+  #currentform label:hover {
+    font-size: 1em;
+  }
+
+  #currentform input {
+    padding-top: 2px;
+  }
+
+  #aiimg1 {
+    flex-basis: 100%;
+    width: 90vw;
+    min-width: 200px;
+  }
+
+  #opportunities {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  #aiContent h2 {
+    font-size: 1.25em;
+    text-align: center;
+  }
+
+  #aiContent p {
+    text-align: center;
+  }
+
+  #usescontent > div {
+    display: flex;
+    margin: 3%;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+  }
+  
+  #usesdiv1 > :first-child{
+    flex-basis: 100%;
+    margin: 0 3%;
+    font-size: 16pt;
+    text-align: center;
+    padding-top: 6%;
+  }
+
+  #usesdiv1 {
+    flex-direction: column-reverse;
+    border-bottom: #041C09 solid;
+    padding-bottom: 10%;
+  }
+  
+  #usesdiv1 > iframe {
+    flex-basis: 100%;
+    width: 100vw;
+  }
+  
+
+  #usesdiv2 > figure{
+    flex-basis: 100%;
+    width: 100vw;
+  }
+  
+  #usesdiv2 > section {
+    flex-basis: 100%;
+  }
+  
+  
+  #uses4 {
+    width:75vw;
+    float: none;
+  }
+  
+  #uses5 {
+    float: none;
+    width: 70vw;
+  }
+
+  #contactus{
+    margin-bottom: 3vh;
+    padding-right: 8vh;
+  }
+
+  #contactus, #beupdated {
+    flex-basis: 100%;
+  }
+
+  #mainimgcontact {
+    padding-left: 3vw;
+    margin: 3vw;
+  }
+
+  #refcontent div{
+    font-size: 0.75em;
+    max-width: 90vw;
+  }
+
+  #usesmainname {
+    top: 28vh;
+  }
+
+  #currentmainname {
+    font-size: 1.5em;
+    top: 15vh;
+    color: #000;
+  }
+
+  
+
+
+}
+
